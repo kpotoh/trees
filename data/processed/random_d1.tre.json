@@ -1,0 +1,90 @@
+{
+    "name": "n0",
+    "numLeafs": 7,
+    "ottId": "ott2121004",
+    "branch_length": "0.0",
+    "children": [
+        {
+            "name": "n1",
+            "numLeafs": 6,
+            "ottId": "ott3374783",
+            "branch_length": "0.0829229",
+            "children": [
+                {
+                    "name": "n3",
+                    "numLeafs": 4,
+                    "ottId": "ott2718130",
+                    "branch_length": "0.0318757",
+                    "children": [
+                        {
+                            "name": "n5",
+                            "numLeafs": 3,
+                            "ottId": "ott2366512",
+                            "branch_length": "0.401881",
+                            "children": [
+                                {
+                                    "name": "n9",
+                                    "numLeafs": 0,
+                                    "ottId": "ott529281",
+                                    "branch_length": "0.48332"
+                                },
+                                {
+                                    "name": "n10",
+                                    "numLeafs": 2,
+                                    "ottId": "ott2865323",
+                                    "branch_length": "0.0254849",
+                                    "children": [
+                                        {
+                                            "name": "n11",
+                                            "numLeafs": 0,
+                                            "ottId": "ott2479043",
+                                            "branch_length": "0.457835"
+                                        },
+                                        {
+                                            "name": "n12",
+                                            "numLeafs": 0,
+                                            "ottId": "ott1660900",
+                                            "branch_length": "0.457835"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "n6",
+                            "numLeafs": 0,
+                            "ottId": "ott2229510",
+                            "branch_length": "0.885201"
+                        }
+                    ]
+                },
+                {
+                    "name": "n4",
+                    "numLeafs": 2,
+                    "ottId": "ott4806317",
+                    "branch_length": "0.445255",
+                    "children": [
+                        {
+                            "name": "n7",
+                            "numLeafs": 0,
+                            "ottId": "ott2499643",
+                            "branch_length": "0.471822"
+                        },
+                        {
+                            "name": "n8",
+                            "numLeafs": 0,
+                            "ottId": "ott2324396",
+                            "branch_length": "0.471822"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "n2",
+            "numLeafs": 0,
+            "ottId": "ott4917091",
+            "branch_length": "1.0"
+        }
+    ]
+}

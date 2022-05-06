@@ -1,0 +1,678 @@
+{
+    "name": "n0",
+    "numLeafs": 49,
+    "ottId": "ott4992859",
+    "branch_length": "0.0",
+    "children": [
+        {
+            "name": "n1",
+            "numLeafs": 44,
+            "ottId": "ott648020",
+            "branch_length": "0.0829229",
+            "children": [
+                {
+                    "name": "n3",
+                    "numLeafs": 18,
+                    "ottId": "ott787961",
+                    "branch_length": "0.0318757",
+                    "children": [
+                        {
+                            "name": "n7",
+                            "numLeafs": 13,
+                            "ottId": "ott1122349",
+                            "branch_length": "1.46052",
+                            "children": [
+                                {
+                                    "name": "n15",
+                                    "numLeafs": 11,
+                                    "ottId": "ott2022501",
+                                    "branch_length": "0.0985043",
+                                    "children": [
+                                        {
+                                            "name": "n25",
+                                            "numLeafs": 2,
+                                            "ottId": "ott2642236",
+                                            "branch_length": "1.28937",
+                                            "children": [
+                                                {
+                                                    "name": "n39",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott438630",
+                                                    "branch_length": "0.0368053"
+                                                },
+                                                {
+                                                    "name": "n40",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott4495012",
+                                                    "branch_length": "0.0368053"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "n26",
+                                            "numLeafs": 9,
+                                            "ottId": "ott892625",
+                                            "branch_length": "0.195815",
+                                            "children": [
+                                                {
+                                                    "name": "n41",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott2504191",
+                                                    "branch_length": "1.13036"
+                                                },
+                                                {
+                                                    "name": "n42",
+                                                    "numLeafs": 8,
+                                                    "ottId": "ott4966834",
+                                                    "branch_length": "0.333791",
+                                                    "children": [
+                                                        {
+                                                            "name": "n55",
+                                                            "numLeafs": 4,
+                                                            "ottId": "ott1345709",
+                                                            "branch_length": "0.390779",
+                                                            "children": [
+                                                                {
+                                                                    "name": "n71",
+                                                                    "numLeafs": 0,
+                                                                    "ottId": "ott1553622",
+                                                                    "branch_length": "0.405792"
+                                                                },
+                                                                {
+                                                                    "name": "n72",
+                                                                    "numLeafs": 3,
+                                                                    "ottId": "ott2780058",
+                                                                    "branch_length": "0.110406",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "n85",
+                                                                            "numLeafs": 2,
+                                                                            "ottId": "ott2476489",
+                                                                            "branch_length": "0.24294",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "n95",
+                                                                                    "numLeafs": 0,
+                                                                                    "ottId": "ott1410112",
+                                                                                    "branch_length": "0.0524458"
+                                                                                },
+                                                                                {
+                                                                                    "name": "n96",
+                                                                                    "numLeafs": 0,
+                                                                                    "ottId": "ott384039",
+                                                                                    "branch_length": "0.0524458"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "n86",
+                                                                            "numLeafs": 0,
+                                                                            "ottId": "ott2223396",
+                                                                            "branch_length": "0.295386"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "n56",
+                                                            "numLeafs": 4,
+                                                            "ottId": "ott917946",
+                                                            "branch_length": "0.077908",
+                                                            "children": [
+                                                                {
+                                                                    "name": "n73",
+                                                                    "numLeafs": 2,
+                                                                    "ottId": "ott2967044",
+                                                                    "branch_length": "0.643062",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "n87",
+                                                                            "numLeafs": 0,
+                                                                            "ottId": "ott2191122",
+                                                                            "branch_length": "0.0756015"
+                                                                        },
+                                                                        {
+                                                                            "name": "n88",
+                                                                            "numLeafs": 0,
+                                                                            "ottId": "ott65837",
+                                                                            "branch_length": "0.0756015"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "n74",
+                                                                    "numLeafs": 2,
+                                                                    "ottId": "ott4985317",
+                                                                    "branch_length": "0.247007",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "n89",
+                                                                            "numLeafs": 0,
+                                                                            "ottId": "ott2546240",
+                                                                            "branch_length": "0.471656"
+                                                                        },
+                                                                        {
+                                                                            "name": "n90",
+                                                                            "numLeafs": 0,
+                                                                            "ottId": "ott1123859",
+                                                                            "branch_length": "0.471656"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "n16",
+                                    "numLeafs": 2,
+                                    "ottId": "ott2722168",
+                                    "branch_length": "0.760894",
+                                    "children": [
+                                        {
+                                            "name": "n27",
+                                            "numLeafs": 0,
+                                            "ottId": "ott4049426",
+                                            "branch_length": "0.663788"
+                                        },
+                                        {
+                                            "name": "n28",
+                                            "numLeafs": 0,
+                                            "ottId": "ott2476490",
+                                            "branch_length": "0.663788"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "n8",
+                            "numLeafs": 5,
+                            "ottId": "ott3755539",
+                            "branch_length": "1.7363",
+                            "children": [
+                                {
+                                    "name": "n17",
+                                    "numLeafs": 0,
+                                    "ottId": "ott4147134",
+                                    "branch_length": "1.1489"
+                                },
+                                {
+                                    "name": "n18",
+                                    "numLeafs": 4,
+                                    "ottId": "ott1393957",
+                                    "branch_length": "0.1042",
+                                    "children": [
+                                        {
+                                            "name": "n29",
+                                            "numLeafs": 2,
+                                            "ottId": "ott256038",
+                                            "branch_length": "0.754117",
+                                            "children": [
+                                                {
+                                                    "name": "n43",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott4072224",
+                                                    "branch_length": "0.290584"
+                                                },
+                                                {
+                                                    "name": "n44",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott1882510",
+                                                    "branch_length": "0.290584"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "n30",
+                                            "numLeafs": 2,
+                                            "ottId": "ott4222565",
+                                            "branch_length": "0.792717",
+                                            "children": [
+                                                {
+                                                    "name": "n45",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott4309664",
+                                                    "branch_length": "0.251984"
+                                                },
+                                                {
+                                                    "name": "n46",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott517391",
+                                                    "branch_length": "0.251984"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "n4",
+                    "numLeafs": 26,
+                    "ottId": "ott4292539",
+                    "branch_length": "0.445255",
+                    "children": [
+                        {
+                            "name": "n9",
+                            "numLeafs": 14,
+                            "ottId": "ott3625139",
+                            "branch_length": "1.08251",
+                            "children": [
+                                {
+                                    "name": "n19",
+                                    "numLeafs": 2,
+                                    "ottId": "ott3653228",
+                                    "branch_length": "0.576976",
+                                    "children": [
+                                        {
+                                            "name": "n31",
+                                            "numLeafs": 0,
+                                            "ottId": "ott2213648",
+                                            "branch_length": "0.812333"
+                                        },
+                                        {
+                                            "name": "n32",
+                                            "numLeafs": 0,
+                                            "ottId": "ott2718281",
+                                            "branch_length": "0.812333"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "n20",
+                                    "numLeafs": 12,
+                                    "ottId": "ott4035621",
+                                    "branch_length": "0.15612",
+                                    "children": [
+                                        {
+                                            "name": "n33",
+                                            "numLeafs": 9,
+                                            "ottId": "ott3845214",
+                                            "branch_length": "0.460608",
+                                            "children": [
+                                                {
+                                                    "name": "n47",
+                                                    "numLeafs": 3,
+                                                    "ottId": "ott3212518",
+                                                    "branch_length": "0.163239",
+                                                    "children": [
+                                                        {
+                                                            "name": "n57",
+                                                            "numLeafs": 0,
+                                                            "ottId": "ott1550770",
+                                                            "branch_length": "0.609342"
+                                                        },
+                                                        {
+                                                            "name": "n58",
+                                                            "numLeafs": 2,
+                                                            "ottId": "ott1859709",
+                                                            "branch_length": "0.0514277",
+                                                            "children": [
+                                                                {
+                                                                    "name": "n75",
+                                                                    "numLeafs": 0,
+                                                                    "ottId": "ott2833865",
+                                                                    "branch_length": "0.557914"
+                                                                },
+                                                                {
+                                                                    "name": "n76",
+                                                                    "numLeafs": 0,
+                                                                    "ottId": "ott2452185",
+                                                                    "branch_length": "0.557914"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "n48",
+                                                    "numLeafs": 6,
+                                                    "ottId": "ott581084",
+                                                    "branch_length": "0.478472",
+                                                    "children": [
+                                                        {
+                                                            "name": "n59",
+                                                            "numLeafs": 3,
+                                                            "ottId": "ott3286461",
+                                                            "branch_length": "0.0581325",
+                                                            "children": [
+                                                                {
+                                                                    "name": "n77",
+                                                                    "numLeafs": 2,
+                                                                    "ottId": "ott4543204",
+                                                                    "branch_length": "0.183588",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "n91",
+                                                                            "numLeafs": 0,
+                                                                            "ottId": "ott4508451",
+                                                                            "branch_length": "0.0523881"
+                                                                        },
+                                                                        {
+                                                                            "name": "n92",
+                                                                            "numLeafs": 0,
+                                                                            "ottId": "ott3791374",
+                                                                            "branch_length": "0.0523881"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "n78",
+                                                                    "numLeafs": 0,
+                                                                    "ottId": "ott1721120",
+                                                                    "branch_length": "0.235976"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "n60",
+                                                            "numLeafs": 3,
+                                                            "ottId": "ott4657278",
+                                                            "branch_length": "0.0294006",
+                                                            "children": [
+                                                                {
+                                                                    "name": "n79",
+                                                                    "numLeafs": 0,
+                                                                    "ottId": "ott2833604",
+                                                                    "branch_length": "0.264708"
+                                                                },
+                                                                {
+                                                                    "name": "n80",
+                                                                    "numLeafs": 2,
+                                                                    "ottId": "ott1712039",
+                                                                    "branch_length": "0.24275",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "n93",
+                                                                            "numLeafs": 0,
+                                                                            "ottId": "ott4807674",
+                                                                            "branch_length": "0.0219579"
+                                                                        },
+                                                                        {
+                                                                            "name": "n94",
+                                                                            "numLeafs": 0,
+                                                                            "ottId": "ott1382453",
+                                                                            "branch_length": "0.0219579"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "n34",
+                                            "numLeafs": 3,
+                                            "ottId": "ott1544938",
+                                            "branch_length": "0.961935",
+                                            "children": [
+                                                {
+                                                    "name": "n49",
+                                                    "numLeafs": 2,
+                                                    "ottId": "ott566190",
+                                                    "branch_length": "0.0489919",
+                                                    "children": [
+                                                        {
+                                                            "name": "n61",
+                                                            "numLeafs": 0,
+                                                            "ottId": "ott4403630",
+                                                            "branch_length": "0.222261"
+                                                        },
+                                                        {
+                                                            "name": "n62",
+                                                            "numLeafs": 0,
+                                                            "ottId": "ott2201821",
+                                                            "branch_length": "0.222261"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "n50",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott3823488",
+                                                    "branch_length": "0.271253"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "n10",
+                            "numLeafs": 12,
+                            "ottId": "ott310198",
+                            "branch_length": "0.0254849",
+                            "children": [
+                                {
+                                    "name": "n21",
+                                    "numLeafs": 6,
+                                    "ottId": "ott1522722",
+                                    "branch_length": "0.385728",
+                                    "children": [
+                                        {
+                                            "name": "n35",
+                                            "numLeafs": 0,
+                                            "ottId": "ott578960",
+                                            "branch_length": "2.06061"
+                                        },
+                                        {
+                                            "name": "n36",
+                                            "numLeafs": 5,
+                                            "ottId": "ott2017657",
+                                            "branch_length": "1.20411",
+                                            "children": [
+                                                {
+                                                    "name": "n51",
+                                                    "numLeafs": 2,
+                                                    "ottId": "ott3408865",
+                                                    "branch_length": "0.744049",
+                                                    "children": [
+                                                        {
+                                                            "name": "n63",
+                                                            "numLeafs": 0,
+                                                            "ottId": "ott2794389",
+                                                            "branch_length": "0.112454"
+                                                        },
+                                                        {
+                                                            "name": "n64",
+                                                            "numLeafs": 0,
+                                                            "ottId": "ott1297910",
+                                                            "branch_length": "0.112454"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "n52",
+                                                    "numLeafs": 3,
+                                                    "ottId": "ott3642440",
+                                                    "branch_length": "0.458638",
+                                                    "children": [
+                                                        {
+                                                            "name": "n65",
+                                                            "numLeafs": 2,
+                                                            "ottId": "ott1985551",
+                                                            "branch_length": "0.302183",
+                                                            "children": [
+                                                                {
+                                                                    "name": "n81",
+                                                                    "numLeafs": 0,
+                                                                    "ottId": "ott3529114",
+                                                                    "branch_length": "0.0956825"
+                                                                },
+                                                                {
+                                                                    "name": "n82",
+                                                                    "numLeafs": 0,
+                                                                    "ottId": "ott2302188",
+                                                                    "branch_length": "0.0956825"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "n66",
+                                                            "numLeafs": 0,
+                                                            "ottId": "ott3110106",
+                                                            "branch_length": "0.397865"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "n22",
+                                    "numLeafs": 6,
+                                    "ottId": "ott2876572",
+                                    "branch_length": "1.43287",
+                                    "children": [
+                                        {
+                                            "name": "n37",
+                                            "numLeafs": 5,
+                                            "ottId": "ott2809916",
+                                            "branch_length": "0.249592",
+                                            "children": [
+                                                {
+                                                    "name": "n53",
+                                                    "numLeafs": 2,
+                                                    "ottId": "ott3439408",
+                                                    "branch_length": "0.43139",
+                                                    "children": [
+                                                        {
+                                                            "name": "n67",
+                                                            "numLeafs": 0,
+                                                            "ottId": "ott2638049",
+                                                            "branch_length": "0.332487"
+                                                        },
+                                                        {
+                                                            "name": "n68",
+                                                            "numLeafs": 0,
+                                                            "ottId": "ott1096207",
+                                                            "branch_length": "0.332487"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "n54",
+                                                    "numLeafs": 3,
+                                                    "ottId": "ott4758919",
+                                                    "branch_length": "0.387963",
+                                                    "children": [
+                                                        {
+                                                            "name": "n69",
+                                                            "numLeafs": 0,
+                                                            "ottId": "ott3803735",
+                                                            "branch_length": "0.375913"
+                                                        },
+                                                        {
+                                                            "name": "n70",
+                                                            "numLeafs": 2,
+                                                            "ottId": "ott4983908",
+                                                            "branch_length": "0.211367",
+                                                            "children": [
+                                                                {
+                                                                    "name": "n83",
+                                                                    "numLeafs": 0,
+                                                                    "ottId": "ott1734313",
+                                                                    "branch_length": "0.164546"
+                                                                },
+                                                                {
+                                                                    "name": "n84",
+                                                                    "numLeafs": 0,
+                                                                    "ottId": "ott3809122",
+                                                                    "branch_length": "0.164546"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "n38",
+                                            "numLeafs": 0,
+                                            "ottId": "ott2128702",
+                                            "branch_length": "1.01347"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "n2",
+            "numLeafs": 5,
+            "ottId": "ott1368700",
+            "branch_length": "1.72437",
+            "children": [
+                {
+                    "name": "n5",
+                    "numLeafs": 2,
+                    "ottId": "ott3111040",
+                    "branch_length": "0.401881",
+                    "children": [
+                        {
+                            "name": "n11",
+                            "numLeafs": 0,
+                            "ottId": "ott2839180",
+                            "branch_length": "0.873754"
+                        },
+                        {
+                            "name": "n12",
+                            "numLeafs": 0,
+                            "ottId": "ott3176783",
+                            "branch_length": "0.873754"
+                        }
+                    ]
+                },
+                {
+                    "name": "n6",
+                    "numLeafs": 3,
+                    "ottId": "ott1320836",
+                    "branch_length": "0.923905",
+                    "children": [
+                        {
+                            "name": "n13",
+                            "numLeafs": 0,
+                            "ottId": "ott4597858",
+                            "branch_length": "0.35173"
+                        },
+                        {
+                            "name": "n14",
+                            "numLeafs": 2,
+                            "ottId": "ott3967246",
+                            "branch_length": "0.262558",
+                            "children": [
+                                {
+                                    "name": "n23",
+                                    "numLeafs": 0,
+                                    "ottId": "ott615067",
+                                    "branch_length": "0.0891715"
+                                },
+                                {
+                                    "name": "n24",
+                                    "numLeafs": 0,
+                                    "ottId": "ott754952",
+                                    "branch_length": "0.0891715"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
