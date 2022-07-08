@@ -4,12 +4,28 @@
 
 ## Workflow
 
+### Random trees
+
 ```bash
 seq 10 | parallel nw_gen -d {} '>' random_d{}.tre
 
 ls random_d*.tre | parallel echo {} ';' nw_stats {} ';' echo
 
 seq 12 | parallel echo {} ';' python src/from_site.py data/random_d{}.tre '>' data/random_d{}.tre.json
+```
+
+### Human trees
+
+```bash
+python3 scripts/from_site.py data/human/GTR.reduced.treWsupports > data/human/GTR.reduced.treWsupports.json
+python3 scripts/from_site.py data/human/TN.reduced.treWsupports > data/human/TN.reduced.treWsupports.json
+
+du -h data/human/*
+# output:
+# 1,8M    data/human/GTR.reduced.treWsupports
+# 355M    data/human/GTR.reduced.treWsupports.json
+# 1,8M    data/human/TN.reduced.treWsupports
+# 355M    data/human/TN.reduced.treWsupports.json
 ```
 
 ## Logs
