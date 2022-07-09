@@ -1,6 +1,6 @@
 # Nwk2json
 
-[file](https://gist.github.com/jhcepas/9205262)
+[base script](https://gist.github.com/jhcepas/9205262)
 
 ## Workflow
 
@@ -11,14 +11,14 @@ seq 10 | parallel nw_gen -d {} '>' random_d{}.tre
 
 ls random_d*.tre | parallel echo {} ';' nw_stats {} ';' echo
 
-seq 12 | parallel echo {} ';' python src/from_site.py data/random_d{}.tre '>' data/random_d{}.tre.json
+seq 12 | parallel echo {} ';' python src/nwk2json.py data/random_d{}.tre '>' data/random_d{}.tre.json
 ```
 
 ### Human trees
 
 ```bash
-python3 scripts/from_site.py data/human/GTR.reduced.treWsupports > data/human/GTR.reduced.treWsupports.json
-python3 scripts/from_site.py data/human/TN.reduced.treWsupports > data/human/TN.reduced.treWsupports.json
+python3 scripts/nwk2json_human.py data/human/GTR.reduced.treWsupports > data/human/GTR.reduced.treWsupports.json
+python3 scripts/nwk2json_human.py data/human/TN.reduced.treWsupports > data/human/TN.reduced.treWsupports.json
 
 du -h data/human/*
 # output:

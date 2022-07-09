@@ -7,3 +7,4 @@ data/random/random_d8.tre.json
 data/random/random_d7.tre.json
 data/random/random_d6.tre.json
 data/human
+*.tar*

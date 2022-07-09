@@ -1,68 +1,68 @@
 import json
-from queue import Queue
+import random
+import sys
 
-import ete3
 from ete3 import PhyloTree
 
 
-def node_parent(node):
-    try:
-        return next(node.iter_ancestors())
-    except BaseException:
-        return None
+def _rangen(a=50000, b=5000000):
+    stor = set()
+    while True:
+        n = random.randint(a, b)
+        if n in stor:
+            continue
+        yield n
 
 
-def iter_tree_edges(tree: PhyloTree):
-    discovered_nodes = set()
-    discovered_nodes.add(tree.name)
-    Q = Queue()
-    Q.put(tree)
-
-    while not Q.empty():
-        cur_node = Q.get()
-        for child in cur_node.children:
-            Q.put(child)
-
-        if cur_node.name not in discovered_nodes:
-            discovered_nodes.add(cur_node.name)
-            alt_node = cur_node
-            ref_node = node_parent(alt_node)
-            yield ref_node, alt_node
+rangen = _rangen()
 
 
-def to_json(t: PhyloTree):
-    t.describe()
-    print(f"len(t) = {len(t)}")
-    print(t.get_ascii())
+def get_json(node):
+    # Read ETE tag for duplication or speciation events
+    if not hasattr(node, 'evoltype'):
+        dup = random.sample(['N','Y'], 1)[0]
+    elif node.evoltype == "S":
+        dup = "N"
+    elif node.evoltype == "D":
+        dup = "Y"
+
+    node.name = node.name.replace("'", '')
+    idx = next(rangen)
+    nleaves = len(node)
+    nleaves = nleaves if nleaves > 1 else 0
+        
+    json = { 
+        "name": node.name, 
+        "numLeafs": nleaves,
+        "ottId": f"ott{idx}",
+        "branch_length": str(node.dist),
+        }
+    if node.children:
+        json["children"] = []
+        for ch in node.children:
+            json["children"].append(get_json(ch))
+    return json
 
 
-    for node1, node2 in iter_tree_edges(t):
-        print(node1.name, node2.name)
+def dump(data, path=None):
+    kwargs = {
+        "indent": 4,
+    }
+    if path is None:
+        print(json.dumps(data, **kwargs))
+    else:
+        with open(path, 'w') as handle:
+            json.dump(data, handle, **kwargs)
+        
 
-
-    return
-
-
-def dump(data, path):
-    with open(path, 'w') as handle:
-        json.dump(data, handle)
-
-
-def main():
-    path_to_tree = "./data/random_d3.tre"
-    tree = PhyloTree(path_to_tree, format=1)
-    data = to_json(tree)
-    
-    
-    # dump(data)
-
-
-if __name__ == "__main__":
-    # main()
-
-    import re
-
-    with open("./data/mammalia.d3.json") as fin:
-        ids = re.findall("\"ottId\": \"(.+)\"", fin.read())
-        for x in ids:
-            print(x)
+if __name__ == '__main__':
+    if len(sys.argv) > 1:
+        t = PhyloTree(sys.argv[1], format=1)
+    else:
+        # create a random example tree
+        t = PhyloTree()
+        t.populate(100, random_branches=True)
+                   
+    # TreeWidget seems to fail with simple quotes
+    data = get_json(t)
+    dump(data)
